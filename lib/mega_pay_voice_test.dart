@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:mega_pay_voice_control/src/siri_shortcuts_api.g.dart';
 
-export '../src/siri_shortcuts_api.g.dart' hide SiriShortcutsApi;
+export 'src/siri_shortcuts_api.g.dart' hide SiriShortcutsApi;
 
-class SiriShortcuts extends SiriShortcutsApi
+class MegaPayVoiceTest extends SiriShortcutsApi
     implements SiriShortcutsFlutterApi {
-  SiriShortcuts() {
+  MegaPayVoiceTest() {
     SiriShortcutsFlutterApi.setup(this);
   }
 
